@@ -1,0 +1,14 @@
+%table.table.table-striped
+  %thead
+    %tr
+      %th= sortable "game"
+      %th= sortable "alpha"
+      %th= sortable "delta"
+      %th= sortable "step_size"
+      %th= sortable "aggregate_level"
+      %th= sortable "wait_length"
+      %th= sortable "max_step"
+      %th= sortable "data"
+  %tbody
+    = render ci_experiments
+= paginate ci_experiments, remote: true

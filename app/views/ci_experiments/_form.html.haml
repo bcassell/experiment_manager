@@ -1,0 +1,15 @@
+= simple_form_for(@ci_experiment) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :game
+    = f.input :alpha
+    = f.input :delta
+    = f.input :step_size
+    = f.input :aggregate_level
+    = f.input :wait_length
+    = f.input :max_step
+    = f.input :data
+
+  .form-actions
+    = f.button :submit

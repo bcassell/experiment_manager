@@ -1,0 +1,40 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+
+.main { padding-top: 60px; }
+
+.btn-primary {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.table th, .table td {
+  border-top-color: white;
+}
+
+p .navbar-text {
+  margin-right:10px;
+}
+
+.take_up_space{
+  visibility: hidden;
+}
+
+.table th .current {
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.table th .asc {
+  background-image: url("/assets/up_arrow.gif");
+}
+
+.table th .desc {
+  background-image: url("/assets/down_arrow.gif");
+}
